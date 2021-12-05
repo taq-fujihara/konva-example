@@ -1,0 +1,12 @@
+#canvas {
+    border: 1px solid;
+}
+
+#focus-canvas {
+    position: absolute;
+    border: 1px solid greenyellow;
+    transform: scale(1);
+    transition: transform 300ms 10ms ease;
+    opacity: 0;
+}
+
